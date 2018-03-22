@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "LinkedIn Contact Notes",
+  "description": "This extension adds a Notes field to every contact's profile to keep track of your interactions with the contact",
+  "version": "1.0",
+  "browser_action": {
+    //"default_icon": "icon.png",
+    //"default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
