@@ -4,10 +4,17 @@ const notes = document.createElement("div");
 notes.innerHTML = `
   Notes
   <div>
-    <textarea name="note">
+    <textarea id='textAreaNote' name="note" placeholder="Enter any notes here">
     </textarea>
   </div>
+  <button id="noteSaveBtn">Save</button>
 `;
 console.log(whereToInsert, notes);
 whereToInsert.insertBefore(notes, whereToInsert.firstChild);
-//whereToInsert.prepend(notes);
+
+document.getElementById("noteSaveBtn").addEventListener("click", saveNote)
+
+function saveNote() {
+  var notesText = document.getElementById('textAreaNote').value;
+  console.log(notesText);
+}
