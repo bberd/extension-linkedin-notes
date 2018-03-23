@@ -1,2 +1,2 @@
 # extension-linkedin-notes
-  - A chrome extension to keep contact notes for every LinkedIn contact on their profile page
+- A chrome extension to keep private contact notes for LinkedIn contacts on their profile page
