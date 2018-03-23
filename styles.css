@@ -1,0 +1,23 @@
+#note-text-area {
+  outline: none;
+  overflow: hidden;
+}
+
+.resizer-div {
+  position: absolute;
+  left: -9999px;
+  visibility: hidden;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word; /* future version of deprecated 'word-wrap' */
+}
+
+/* the styles for 'commmon' are applied to both the textarea and the hidden clone */
+/* these must be the same for both */
+.common {
+  width: 300px;
+  min-height: 50px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  overflow: hidden;
+}
